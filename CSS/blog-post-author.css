@@ -1,0 +1,25 @@
+/*      author info section     */
+.author{
+    justify-content: center;
+}
+.nested-author-info{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));;
+    grid-template-columns: 100px;
+    grid-template-areas:
+            "avatar name"
+            "avatar date";
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#author-avatar{
+    grid-area: avatar;
+    width: 70px;
+    height: 60px;
+}
+#author-name{
+    grid-area: name;
+}
+#upload-date{
+    grid-area: date;
+}

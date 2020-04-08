@@ -1,0 +1,27 @@
+@import "blog-post-header.css";
+@import "blog-post-author.css";
+@import "blog-post-article.css";
+@import "share_icons.css";
+
+/* for small, medium, and large size devices*/
+.container{
+    display: flex;
+    flex-direction: column;
+    /*border: 3px solid #ed0b13;*/
+}
+
+/*.box{*/
+/*    border: 1px solid #4223ef;*/
+/*    background: bisque;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*      share section       */
+.share{
+    padding-top: 20px;
+}
+
+/*      footer      */
+.footer{
+    background: azure;
+}

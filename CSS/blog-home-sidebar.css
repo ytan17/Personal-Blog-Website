@@ -1,0 +1,13 @@
+/*      sidebar      */
+.sidebar{
+    grid-area: sd;
+    padding-top: 20px;
+}
+#sidebar-nestedFlex{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.side-btn{
+    padding-top: 20px;
+}

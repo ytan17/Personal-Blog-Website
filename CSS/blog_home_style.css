@@ -1,0 +1,67 @@
+@import "blog_subscribe_style.css";
+@import "blog-home-sidebar.css";
+@import "blog-home-cards.css";
+
+/*For small device*/
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-areas:
+            "hd"
+            "sd"
+            "main"
+            "ft";
+    /*background: azure;*/
+    /*border: 3px solid #ed0b13;*/
+}
+
+/*.box,*/
+/*.card{*/
+/*    border: 1px solid #4223ef;*/
+/*    background: bisque;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*      header      */
+.header{
+    grid-area: hd;
+    color: #55ACEE;
+    /*background: lightskyblue;*/
+}
+
+/*      footer      */
+.footer{
+    grid-area: ft;
+    margin-top: 10px;
+    background: azure;
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .container{
+        display: grid;
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-areas:
+                "hd hd hd"
+                "sd main main"
+                "ft ft ft";
+        /*background: azure;*/
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container{
+        display: grid;
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-areas:
+                "hd hd hd hd hd hd"
+                "sd main main main main main"
+                "ft ft ft ft ft ft";
+        /*background: azure;*/
+    }
+}

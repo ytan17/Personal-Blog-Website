@@ -1,0 +1,22 @@
+/*      cards      */
+.content{
+    grid-area: main;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+}
+.card-img{
+    padding: 10px;
+}

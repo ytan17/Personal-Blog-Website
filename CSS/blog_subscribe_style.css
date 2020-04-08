@@ -1,0 +1,8 @@
+#subscribe-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-content: center;
+    /*border: 3px solid #ed0b13;*/
+    background: azure;
+}

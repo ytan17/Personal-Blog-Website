@@ -1,0 +1,12 @@
+/*      header      */
+.header{
+    /*background: lightskyblue;*/
+    padding-bottom: 15px;
+}
+#post-head{
+    text-align: center;
+}
+#back-home-link{
+    text-align: right;
+    color: darkblue;
+}

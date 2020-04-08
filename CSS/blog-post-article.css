@@ -1,0 +1,17 @@
+/*      article section         */
+.article{
+    min-height: 50vh;
+}
+#notes{
+    background: bisque;
+    padding: 15px;
+}
+.article-img{
+    padding: 20px;
+    float:left;
+    width:100%;
+    object-fit:cover;
+}
+.figure-caption{
+    text-align: center;
+}
