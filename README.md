@@ -25,4 +25,5 @@ Applied HTML and CSS skills to build out a personal blog website, including cust
     Grid
     & Flexbox
     
-# Responsiveness - Multi-Device Web Design
+# Responsiveness
+    Multi-Device Web Design
