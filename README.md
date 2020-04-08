@@ -3,23 +3,25 @@ Applied HTML and CSS skills to build out a personal blog website, including cust
 
 # Webpage pattern
 - Blog Homepage
-    Navbar
-    Blog Post Card
-        Card
-            Image
-            Buttons
-    Footer
+1. Header
+2. Navbar
+3. Blog Post Card
+    a. Card
+        aa. Image
+        bb. Buttons
+4. Footer
     
 -Blog Post
-    Header
-    Author Info
-        Name
-        Upload date
-        Avatar
-    Social Sharing
-        Twitter
-        Facebook
-        LinkedIn
+1. Header
+2. Author Info
+    a. Name
+    b. Upload date
+    c. Avatar
+3. Social Sharing
+    a. Twitter
+    b. Facebook
+    c. LinkedIn
+4. Footer
         
 # Website based Layout:
     Grid
